@@ -69,5 +69,24 @@ span{
 }
 /* Services We Can Help You With !  */
 .service-container{
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
 
+.img-info{
+    width: 150px;
+    height: 120px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+.icon{
+    height: 80px;
+    margin-bottom: 20px;
+     
 }
