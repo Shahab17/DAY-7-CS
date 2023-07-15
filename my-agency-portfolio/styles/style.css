@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles used  */
+.btn-primary{
+    font-size: 15px;
+    padding: 10px 15px;
+    background:rgba(146, 104, 26, 0.836);
+    border-radius: 7px;
+    border: 0;
+    color: white;
+    margin-right: 20px;
+    
+}
+.btn-primary:hover{
+    background-color: aqua;
+    cursor:grab;
+    color: black;
+}
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.para{
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+     
+}
+span{
+    color:rgba(146, 104, 26, 0.836);
+}
+
+/* nav bar related styles */
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-family: monospace;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.979);
+     
+}
+
+/* banner related styles*/
+.banner-container{
+    height: 100vh;
+    background-image: url("../asset/image/background.jpg"), linear-gradient(rgba(68, 66, 92, 0.445), rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+/* Services We Can Help You With !  */
+.service-container{
+
+}
