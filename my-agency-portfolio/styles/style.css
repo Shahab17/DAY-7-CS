@@ -33,6 +33,8 @@
 }
 span{
     color:rgba(146, 104, 26, 0.836);
+    /* font-size: 30px; */
+
 }
 
 /* nav bar related styles */
@@ -75,6 +77,53 @@ span{
     justify-content: space-evenly;
     align-items: center;
     padding: 40px;
+    gap: 60px;
+}
+.service-info{
+    width: 50%;
+     
+}
+.service-title{
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.service-para{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+li{
+    color: white;
+    font-size: 18px;
+    /* padding-left: 10px; */
+}
+.ceo{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+.author{
+    height: 70px;
+    border-radius: 50px;
+}
+.ceo-title{
+    color: white;
+    padding-right: 30px;
+    padding-left: 20px;
+
+}
+hr{
+    height: 60px;
+    border: 1px solid red;
+   margin-right: 10px;
+}
+.service-img{
+    display: flex;
+}
+.box1{
+    margin-right: 10px;
 }
 
 .img-info{
@@ -82,8 +131,10 @@ span{
     height: 120px;
     background-color: antiquewhite;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     border-radius: 8px;
+    margin-bottom: 10px;
+
 }
 .icon{
     height: 80px;
