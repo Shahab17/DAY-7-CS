@@ -5,9 +5,9 @@
 /* common styles used  */
 .btn-primary{
     font-size: 15px;
-    padding: 10px 15px;
+    padding: 15px 20px;
     background:rgba(146, 104, 26, 0.836);
-    border-radius: 7px;
+    border-radius: 17px;
     border: 0;
     color: white;
     margin-right: 20px;
@@ -110,14 +110,14 @@ li{
 }
 .ceo-title{
     color: white;
-    padding-right: 30px;
+   padding-right: 100px;
     padding-left: 20px;
 
 }
 hr{
     height: 60px;
     border: 1px solid red;
-   margin-right: 10px;
+   margin-right: 20px;
 }
 .service-img{
     display: flex;
